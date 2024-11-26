@@ -252,7 +252,22 @@ button:focus {
         transform: rotate(0deg);
     }
 }
+/*Imagenes */
+/* Estilo para la columna */
+.mi-columna {
+    padding-bottom: 30px;
+    /* Espaciado debajo */
+}
 
+/* Estilo para la imagen */
+.mi-imagen {
+    max-height: 550px;
+    /* Altura máxima */
+    width: 100%;
+    /* Responsiva */
+    object-fit: cover;
+    /* Ajusta la imagen al contenedor */
+}
 #tsparticles {
     position: fixed !important;
     background-repeat: no-repeat !important;
@@ -262,10 +277,14 @@ button:focus {
 }
 
 .home-header {
-    padding-top: 80px !important;
+    padding-top: 100px !important;
 }
 .home-section {
     background: #fcf4e4 !important;
+    /* Color de fondo mantenido */
+    padding: 70px;
+    
+    
 }
 /*
 .home-section {
