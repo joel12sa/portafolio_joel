@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portafolio_joel/static/css/main.e6c13ad2.css",
+    "main.js": "/portafolio_joel/static/js/main.bd919d5a.js",
+    "static/js/453.ec16e35c.chunk.js": "/portafolio_joel/static/js/453.ec16e35c.chunk.js",
+    "static/media/gato_sinfondo.png": "/portafolio_joel/static/media/gato_sinfondo.84671d9ec0e10e4d57ff.png",
+    "static/media/gato.gif": "/portafolio_joel/static/media/gato.86f8e0aaca23724017e9.gif",
+    "static/media/logo.png": "/portafolio_joel/static/media/logo.6296341e18a3f8d5ea16.png",
+    "index.html": "/portafolio_joel/index.html",
+    "main.e6c13ad2.css.map": "/portafolio_joel/static/css/main.e6c13ad2.css.map",
+    "main.bd919d5a.js.map": "/portafolio_joel/static/js/main.bd919d5a.js.map",
+    "453.ec16e35c.chunk.js.map": "/portafolio_joel/static/js/453.ec16e35c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.bd919d5a.js"
+  ]
+}
