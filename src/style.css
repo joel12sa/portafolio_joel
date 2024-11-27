@@ -173,8 +173,24 @@ button:focus {
     padding-left: 1rem !important;
 }
 
-.nav-link {
-    padding: 0.8rem 1rem !important;
+.fork-btn-inner {
+    padding: 0.8rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #007080;
+    /* Color inicial */
+    color: #ffffff;
+    /* Color del texto inicial */
+    border: none;
+    /* Opcional: sin bordes */
+}
+
+.fork-btn-inner:hover {
+    background-color: #c95bf5;
+    /* Color de fondo al pasar el cursor */
+    color: #ffffff;
+    /* Color del texto iluminado */
+    box-shadow: 0 0 10px #c95bf5;
+    /* Efecto de resplandor */
 }
 
 @media (max-width: 767px) {
@@ -195,7 +211,7 @@ button:focus {
     z-index: 1;
 }
 
-.navbar-nav .nav-item a::after {
+.navbar-nav .nav-item a:not(.fork-btn-inner)::after {
     content: "";
     position: relative;
     display: block;
