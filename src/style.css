@@ -70,11 +70,22 @@ button:focus {
 /* --------- */
 /* Navbar Section  */
 /* --------- */
-.sticky {
-    background-color: #1b1a2ea9 !important;
-    transition: all 0.3s ease-out 0s !important;
-    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-    backdrop-filter: blur(15px) !important;
+.navbar {
+    background-color: rgba(27, 26, 46, 0.5);
+    /* Fondo semitransparente */
+    backdrop-filter: blur(15px);
+    /* Efecto de desenfoque */
+    transition: all 0.3s ease;
+    /* Transición suave */
+    box-shadow: none;
+    /* Sin sombra inicialmente */
+}
+
+.navbar-colored {
+    background-color: rgba(80, 76, 136, 0.8);
+    /* Fondo menos transparente al desplazarse */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Efecto de sombra */
 }
 
 .navbar {
@@ -157,7 +168,7 @@ button:focus {
 }
 /*cambio de color letras navbar*/
 .navbar-nav .nav-link {
-    color: #556b2f!important;
+    color: #f1f1ef!important;
     padding-right: 1rem !important;
     padding-left: 1rem !important;
 }
@@ -341,8 +352,32 @@ button:focus {
 }
 
 .myAvtar {
-    justify-content: center !important;
-    padding-top: 9em !important;
+    overflow: hidden;
+    /* Asegura que los bordes redondeados se apliquen correctamente */
+    border-radius: 20px;
+    /* Suaviza las esquinas del contenedor */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Agrega una sombra para un mejor efecto */
+    padding: 10px;
+    /* Espaciado interno opcional */
+    background-color: #ccc5c5;
+    /* Fondo para destacar */
+}
+
+.avatar-img {
+    border-radius: 20px;
+    /* Aplica el suavizado directamente a la imagen */
+    width: 100%;
+    /* Asegura que sea responsiva */
+    height: auto;
+    /* Mantiene proporción */
+    transition: transform 0.3s ease;
+    /* Suaviza cualquier animación, como hover */
+}
+
+.avatar-img:hover {
+    transform: scale(1.05);
+    /* Efecto de zoom suave al pasar el mouse */
 }
 
 @media (max-width: 767px) {
