@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import Home from "./components/Home/Home"; // Asegúrate de importar el componente Home
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
+import About from "./components/About/About";
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={< About/>} />
       </Routes>
     </BrowserRouter>
   );

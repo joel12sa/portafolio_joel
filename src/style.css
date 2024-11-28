@@ -47,7 +47,7 @@ button:focus {
 /* --------- */
 
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 8px;
 }
 
 /* Track */
@@ -57,7 +57,7 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgba(178, 121, 216, 0.959);
+    background: rgba(84, 84, 0, 0.959);
     border-radius: 12px;
 }
 
@@ -177,20 +177,16 @@ button:focus {
     padding: 0.8rem 1rem;
     transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
     background-color: #007080;
-    /* Color inicial */
     color: #ffffff;
-    /* Color del texto inicial */
     border: none;
-    /* Opcional: sin bordes */
 }
 
 .fork-btn-inner:hover {
-    background-color: #c95bf5;
+    background-color: #000000;
     /* Color de fondo al pasar el cursor */
     color: #ffffff;
     /* Color del texto iluminado */
-    box-shadow: 0 0 10px #c95bf5;
-    /* Efecto de resplandor */
+    box-shadow: 0 0 10px #ffffff;
 }
 
 @media (max-width: 767px) {
@@ -218,7 +214,7 @@ button:focus {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #c95bf5;
+    background: #ffffff;
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -253,7 +249,6 @@ button:focus {
         transform: rotate(14deg);
     }
 
-    /* The following five values can be played with to make the waving more or less extreme */
     20% {
         transform: rotate(-8deg);
     }
@@ -284,6 +279,7 @@ button:focus {
 .mi-columna {
     padding-bottom: 30px;
     /* Espaciado debajo */
+    padding-top: 30px;
 }
 
 /* Estilo para la imagen */
@@ -313,17 +309,6 @@ button:focus {
     
     
 }
-/*
-.home-section {
-    position: relative;
-    z-index: -1;
-    background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    padding-bottom: 30px !important;
-    padding-top: 30px !important;
-}*/
-
 .home-content {
     padding: 9rem 0 2rem !important;
     color: #2f2f2f;
@@ -368,25 +353,43 @@ button:focus {
 }
 
 .myAvtar {
+    display: inline-block;
+    /* Asegura que el contenedor ajuste su tamaño al contenido */
     overflow: hidden;
     /* Asegura que los bordes redondeados se apliquen correctamente */
     border-radius: 20px;
     /* Suaviza las esquinas del contenedor */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     /* Agrega una sombra para un mejor efecto */
-    padding: 10px;
-    /* Espaciado interno opcional */
+    background-color: #ccc5c5;
+    /* Fondo para destacar */
+}
+
+.myAvtar {
+    display: flex;
+    /* Usa flexbox para alinear el contenido */
+    justify-content: center;
+    /* Centra la imagen horizontalmente */
+    align-items: center;
+    /* Centra la imagen verticalmente */
+    overflow: hidden;
+    /* Asegura que los bordes redondeados se apliquen correctamente */
+    border-radius: 20px;
+    /* Suaviza las esquinas del contenedor */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Agrega una sombra para un mejor efecto */
     background-color: #ccc5c5;
     /* Fondo para destacar */
 }
 
 .avatar-img {
+    display: block;
     border-radius: 20px;
     /* Aplica el suavizado directamente a la imagen */
     width: 100%;
-    /* Asegura que sea responsiva */
+    /* Asegura que la imagen sea responsiva dentro del contenedor */
     height: auto;
-    /* Mantiene proporción */
+    /* Mantiene la proporción de la imagen */
     transition: transform 0.3s ease;
     /* Suaviza cualquier animación, como hover */
 }
@@ -395,14 +398,6 @@ button:focus {
     transform: scale(1.05);
     /* Efecto de zoom suave al pasar el mouse */
 }
-
-@media (max-width: 767px) {
-    .myAvtar {
-        padding-top: 2em !important;
-        padding-bottom: 2em !important;
-    }
-}
-
 .home-about-section {
     position: relative;
     padding-bottom: 70px !important;
@@ -483,5 +478,3 @@ button:focus {
 .icon-colour {
     color: #700c86 !important;
 }
-
-
