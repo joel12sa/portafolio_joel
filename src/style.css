@@ -478,3 +478,66 @@ button:focus {
 .icon-colour {
     color: #700c86 !important;
 }
+
+/*------------------------*/
+/*---FOOTER---------------*/
+/*------------------------*/
+.footer {
+    background-color: #282c34;
+    /* Fondo oscuro */
+    color: white;
+    /* Texto en blanco */
+    padding: 20px 0;
+    /* Espaciado interno */
+    text-align: center;
+    /* Centrado del texto */
+    width: 100%;
+    /* Asegura que abarque todo el ancho */
+    margin: 0;
+    /* Elimina márgenes externos */
+    position: relative;
+    /* Posicionamiento relativo */
+    left: 0;
+    /* Fija el pie de página al inicio del ancho */
+    right: 0;
+    /* Fija el pie de página al final del ancho */
+}
+
+.footer-copywright h3 {
+    font-size: 1.2rem;
+    /* Tamaño del texto */
+    margin: 10px 0;
+    /* Margen vertical */
+}
+
+.footer-body {
+    display: flex;
+    /* Uso de flexbox para organizar los íconos */
+    justify-content: center;
+    /* Centrar los íconos horizontalmente */
+}
+
+.footer-icons {
+    list-style: none;
+    /* Quita los puntos de la lista */
+    padding: 0;
+    /* Elimina el padding predeterminado */
+    margin: 0;
+    /* Elimina el margen predeterminado */
+    display: flex;
+    /* Íconos en línea */
+}
+
+.footer-icons li {
+    margin: 0 7px;
+    /* Espaciado entre los íconos */
+}
+
+.footer-icons a {
+    color: white;
+    /* Color blanco para los enlaces */
+    font-size: 1rem;
+    /* Tamaño de los íconos */
+    transition: color 0.3s ease;
+    /* Transición suave en el hover */
+}

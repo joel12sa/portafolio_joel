@@ -108,7 +108,7 @@ function Home2() {
               </li>
             </ul>
           </Col>
-        </Row>
+        </Row>    
       </Container>
     </Container>
   );
