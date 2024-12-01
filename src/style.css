@@ -10,11 +10,11 @@ html {
     --imp-text-color: #007080; /* Verde azulado */
 }
 .purple {
-    color: var(--imp-text-color) !important;
+    color: var(--imp-text-color)   ;
 }
 
 button:focus {
-    box-shadow: none !important;
+    box-shadow: none   ;
 }
 
 /* --------- */
@@ -89,88 +89,88 @@ button:focus {
 }
 
 .navbar {
-    position: fixed !important;
-    transition: all 0.3s ease-out 0s !important;
-    padding: 0.3rem 2rem !important;
-    font-size: 1.2rem !important;
+    position: fixed   ;
+    transition: all 0.3s ease-out 0s   ;
+    padding: 0.3rem 2rem   ;
+    font-size: 1.2rem   ;
 }
 
 .navbar-toggler {
-    position: relative !important;
-    background-color: transparent !important;
-    border-color: transparent !important;
+    position: relative   ;
+    background-color: transparent   ;
+    border-color: transparent   ;
 }
 
 .navbar-toggler span {
-    display: block !important;
-    background-color: #007080 !important;
-    height: 4px !important;
-    width: 27px !important;
-    margin-top: 5px !important;
-    margin-bottom: 5px !important;
-    transform: rotate(0deg) !important;
-    left: 0 !important;
-    opacity: 1 !important;
+    display: block   ;
+    background-color: #007080   ;
+    height: 4px   ;
+    width: 27px   ;
+    margin-top: 5px   ;
+    margin-bottom: 5px   ;
+    transform: rotate(0deg)   ;
+    left: 0   ;
+    opacity: 1   ;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
-    outline: 0 !important;
+    outline: 0   ;
 }
 
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
-    transition: transform 0.35s ease-in-out !important;
-    transition: transform 0.35s ease-in-out !important;
+    transition: transform 0.35s ease-in-out   ;
+    transition: transform 0.35s ease-in-out   ;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
-    position: absolute !important;
-    left: 12px !important;
-    top: 10px !important;
-    transform: rotate(135deg) !important;
-    opacity: 0.9 !important;
+    position: absolute   ;
+    left: 12px   ;
+    top: 10px   ;
+    transform: rotate(135deg)   ;
+    opacity: 0.9   ;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(2) {
-    height: 12px !important;
-    visibility: hidden !important;
-    background-color: transparent !important;
+    height: 12px   ;
+    visibility: hidden   ;
+    background-color: transparent   ;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
-    position: absolute !important;
-    left: 12px !important;
-    top: 10px !important;
-    transform: rotate(-135deg) !important;
-    opacity: 0.9 !important;
+    position: absolute   ;
+    left: 12px   ;
+    top: 10px   ;
+    transform: rotate(-135deg)   ;
+    opacity: 0.9   ;
 }
 
 @media (max-width: 767px) {
     .navbar {
-        padding: 1rem 2rem !important;
-        font-size: 1.4rem !important;
-        background-color: #181a27 !important;
+        padding: 1rem 2rem   ;
+        font-size: 1.4rem   ;
+        background-color: #181a27   ;
     }
 
     .navbar-nav .nav-item a::after {
-        display: none !important;
+        display: none   ;
     }
 }
 
 .navbar-brand {
-    color: rgb(250, 250, 250) !important;
+    color: rgb(250, 250, 250)   ;
 }
 
 .logo {
-    height: 1.4em !important;
-    width: 2.5em !important;
+    height: 1.4em   ;
+    width: 2.5em   ;
 }
 /*cambio de color letras navbar*/
 .navbar-nav .nav-link {
-    color: #f1f1ef!important;
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+    color: #f1f1ef  ;
+    padding-right: 1rem   ;
+    padding-left: 1rem   ;
 }
 
 .fork-btn-inner {
@@ -191,7 +191,7 @@ button:focus {
 
 @media (max-width: 767px) {
     .nav-link {
-        padding: 0.7rem 1rem !important;
+        padding: 0.7rem 1rem   ;
     }
 }
 
@@ -291,38 +291,32 @@ button:focus {
     object-fit: cover;
     /* Ajusta la imagen al contenedor */
 }
-#tsparticles {
-    position: fixed !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    width: 100%;
-    height: 100%;
-}
+
 
 .home-header {
-    padding-top: 100px !important;
+    padding-top: 100px   ;
 }
 .home-section {
-    background: #fcf4e4 !important;
+    background: #fcf4e4   ;
     /* Color de fondo mantenido */
     padding: 70px;
     
     
 }
 .home-content {
-    padding: 9rem 0 2rem !important;
+    padding: 9rem 0 2rem   ;
     color: #2f2f2f;
     text-align: left;
 }
 
 .heading {
-    font-size: 2.4em !important;
-    padding-left: 50px !important;
+    font-size: 2.4em   ;
+    padding-left: 50px   ;
 }
 
 .heading-name {
-    font-size: 2.5em !important;
-    padding-left: 45px !important;
+    font-size: 2.5em   ;
+    padding-left: 45px   ;
 }
 
 .main-name {
@@ -330,40 +324,28 @@ button:focus {
 }
 
 .Typewriter__wrapper {
-    font-size: 2.2em !important;
-    color: #4b5320 !important;
-    font-weight: 600 !important;
+    font-size: 2.2em   ;
+    color: #4b5320   ;
+    font-weight: 600   ;
 }
 
 .Typewriter__cursor {
-    font-size: 2.4em !important;
-    color: #2f2f2f !important;
+    font-size: 2.4em   ;
+    color: #2f2f2f   ;
 }
 
 @media (max-width: 767px) {
     .Typewriter__wrapper {
-        font-size: 1.4em !important;
-        font-weight: 500 !important;
-        position: absolute !important;
+        font-size: 1.4em   ;
+        font-weight: 500   ;
+        position: absolute   ;
     }
 
     .Typewriter__cursor {
-        display: none !important;
+        display: none   ;
     }
 }
 
-.myAvtar {
-    display: inline-block;
-    /* Asegura que el contenedor ajuste su tamaño al contenido */
-    overflow: hidden;
-    /* Asegura que los bordes redondeados se apliquen correctamente */
-    border-radius: 20px;
-    /* Suaviza las esquinas del contenedor */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    /* Agrega una sombra para un mejor efecto */
-    background-color: #ccc5c5;
-    /* Fondo para destacar */
-}
 
 .myAvtar {
     display: flex;
@@ -378,7 +360,7 @@ button:focus {
     /* Suaviza las esquinas del contenedor */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     /* Agrega una sombra para un mejor efecto */
-    background-color: #ccc5c5;
+    background-color: #E0E0E0;
     /* Fondo para destacar */
 }
 
@@ -399,49 +381,53 @@ button:focus {
     /* Efecto de zoom suave al pasar el mouse */
 }
 .home-about-section {
+    background-color: #e8e6e1;
+}
+.home-about-section {
     position: relative;
-    padding-bottom: 70px !important;
-    padding-top: 70px !important;
+    padding-bottom: 70px   ;
+    padding-top: 70px   ;
 }
 
 .home-about-description {
-    color: #2f2f2f!important;
-    padding-top: 100px !important;
-    padding-bottom: 20px !important;
+    color: #2f2f2f  ;
+    padding-top: 100px   ;
+    padding-bottom: 20px   ;
     text-align: center;
 }
 
+
 .home-about-body {
     padding-top: 50px;
-    font-size: 1.2em !important;
+    font-size: 1.2em   ;
     text-align: left;
 }
 
 .home-about-social {
-    text-align: center !important;
+    text-align: center   ;
     padding-top: 25px;
-    color: #556b2f !important;
+    color: #556b2f   ;
 }
 
 .home-about-social-links {
-    justify-content: center !important;
-    padding-top: 15px !important;
-    display: inline-block !important;
-    position: relative !important;
-    padding-inline-start: 0 !important;
+    justify-content: center   ;
+    padding-top: 15px   ;
+    display: inline-block   ;
+    position: relative   ;
+    padding-inline-start: 0   ;
 }
 
 .home-social-icons {
-    position: relative !important;
-    display: inline-block !important;
-    width: 40px !important;
-    height: 40px !important;
-    text-align: center !important;
-    font-size: 1.2em !important;
-    line-height: 2em !important;
-    background: rgba(255, 255, 255, 0.972) !important;
-    border-radius: 50% !important;
-    transition: 0.5s !important;
+    position: relative   ;
+    display: inline-block   ;
+    width: 40px   ;
+    height: 40px   ;
+    text-align: center   ;
+    font-size: 1.2em   ;
+    line-height: 2em   ;
+    background: #f9fdf9  ;
+    border-radius: 50%   ;
+    transition: 0.5s   ;
 }
 
 .home-social-icons::before {
@@ -461,83 +447,69 @@ button:focus {
 .home-social-icons:hover::before {
     transform: scale(1.1);
     box-shadow: 0 0 15px #801f95;
+    filter: blur(4px);
+    /* Difuminado en hover */
 }
 
 .home-social-icons:hover {
     color: #87209e;
     box-shadow: 0 0 5px #87209e;
     text-shadow: 0 0 2px #87209e;
+    filter: blur(2px);
+    /* Ligero difuminado en el ícono al pasar el mouse */
 }
-
 .social-icons {
-    display: inline-block !important;
+    display: inline-block   ;
     padding-right: 15px;
     padding-left: 15px;
 }
 
 .icon-colour {
-    color: #700c86 !important;
+    color: #700c86   ;
 }
 
 /*------------------------*/
 /*---FOOTER---------------*/
 /*------------------------*/
 .footer {
-    background-color: #282c34;
-    /* Fondo oscuro */
-    color: white;
-    /* Texto en blanco */
-    padding: 20px 0;
-    /* Espaciado interno */
-    text-align: center;
-    /* Centrado del texto */
-    width: 100%;
-    /* Asegura que abarque todo el ancho */
-    margin: 0;
-    /* Elimina márgenes externos */
-    position: relative;
-    /* Posicionamiento relativo */
-    left: 0;
-    /* Fija el pie de página al inicio del ancho */
-    right: 0;
-    /* Fija el pie de página al final del ancho */
+    background-color:  #2e2e2e;
+    bottom: 0   ;
+    padding-top: 10px   ;
+    padding-bottom: 8px   ;
 }
 
-.footer-copywright h3 {
-    font-size: 1.2rem;
-    /* Tamaño del texto */
-    margin: 10px 0;
-    /* Margen vertical */
+.footer-copywright {
+    text-align: center   ;
 }
 
 .footer-body {
-    display: flex;
-    /* Uso de flexbox para organizar los íconos */
-    justify-content: center;
-    /* Centrar los íconos horizontalmente */
+    z-index: 1;
+    text-align: center   ;
+}
+
+@media (max-width: 767px) {
+    .footer-copywright {
+        text-align: center   ;
+    }
+
+    .footer-body {
+        text-align: center   ;
+    }
+}
+
+.footer h3 {
+    font-size: 1em;
+    color: white   ;
+    margin-top: 0.5em   ;
+    margin-bottom: 0.5em   ;
 }
 
 .footer-icons {
-    list-style: none;
-    /* Quita los puntos de la lista */
-    padding: 0;
-    /* Elimina el padding predeterminado */
-    margin: 0;
-    /* Elimina el margen predeterminado */
-    display: flex;
-    /* Íconos en línea */
+    margin-top: 0.5em   ;
+    margin-bottom: 0.5em   ;
+    padding: 0   ;
 }
 
-.footer-icons li {
-    margin: 0 7px;
-    /* Espaciado entre los íconos */
-}
-
-.footer-icons a {
-    color: white;
-    /* Color blanco para los enlaces */
-    font-size: 1rem;
-    /* Tamaño de los íconos */
-    transition: color 0.3s ease;
-    /* Transición suave en el hover */
+.blockquote-footer {
+    color: #a588c0   ;
 }
