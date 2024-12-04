@@ -576,15 +576,15 @@ button:focus {
 }
 .about-img {
     width: 50%;
-    /* Reduce el tamaño a la mitad del contenedor */
+    /* Tamaño reducido */
     max-width: 400px;
-    /* Tamaño máximo de la imagen */
+    /* Tamaño máximo */
     height: auto;
-    /* Mantiene la proporción de la imagen */
-    display: block;
-    /* Elimina el espacio debajo de la imagen */
-    margin-left: auto;
+    /* Mantiene la proporción */
+    float: right;
     /* Alinea la imagen a la derecha */
-    margin-right: 0;
-    /* Elimina el margen derecho */
+    margin-top: -120px;
+    /* Mueve la imagen hacia arriba */
+    margin-right: 10px;
+    /* Ajusta el espacio a la derecha */
 }
