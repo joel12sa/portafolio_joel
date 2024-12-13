@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import laptopImg from "../../Assests/about.png";
 import AboutCard from "./AboutCard";
 import Github from "./GitHub";
+import Techstack from "./Techstack";
 
 
 function About() {
@@ -21,7 +22,7 @@ function About() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Know Who <strong className="purple">I'M</strong>
             </h1>
-            <AboutCard/>
+            <AboutCard />
           </Col>
           <Col
             md={5}
@@ -34,12 +35,12 @@ function About() {
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
-
+        <Techstack />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Github/>
+        <Github />
       </Container>
     </Container>
   );
