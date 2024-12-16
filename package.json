@@ -6,9 +6,13 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.7",
+    "date-fns": "^2.0.0",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.5",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
     "react-parallax-tilt": "^1.7.257",
@@ -46,6 +50,7 @@
   },
   "homepage": "https://joel12sa.github.io/portafolio_joel",
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.2.0"
   }
 }
