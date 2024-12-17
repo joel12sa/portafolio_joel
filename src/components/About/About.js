@@ -4,7 +4,7 @@ import laptopImg from "../../Assests/about.png";
 import AboutCard from "./AboutCard";
 import Github from "./GitHub";
 import Techstack from "./Techstack";
-
+import ToolsDaily from "./ToolsDaily";
 
 function About() {
   return (
@@ -40,6 +40,7 @@ function About() {
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
+        <ToolsDaily/>
         <Github />
       </Container>
     </Container>
