@@ -7,6 +7,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import About from "./components/About/About";
 import Footer from "./components/Footer";
+import PdfViewer from "./components/Resume/PdfViewer";
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
         <Routes>
           <Route path="/portafolio_joel" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<PdfViewer />} />
         </Routes>
       </BrowserRouter>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

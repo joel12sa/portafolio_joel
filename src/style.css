@@ -588,3 +588,57 @@ button:focus {
     margin-right: 10px;
     /* Ajusta el espacio a la derecha */
 }
+/*LOS PDF*/
+/* styles.css */
+/* Sección PDF adaptada de "resume-section" */
+/* Sección PDF adaptada */
+.resume-section {
+    position: relative !important;
+    padding-top: 10px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+    color: white !important;
+}
+
+/* Contenedor principal */
+.resume {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    /* Reducido de 50px a 20px */
+    justify-content: center;
+    text-align: center;
+}
+
+/* Botones de descarga */
+.download-btn {
+    margin: 20px 0;
+    background-color: #934cce5e !important;
+    border: 2px solid #934cce5e !important;
+    padding: 10px 20px !important;
+    color: white !important;
+    font-size: 1.1em !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    transition: 0.3s ease !important;
+}
+
+.download-btn:hover {
+    transform: translateY(-2px) !important;
+    background-color: #a24dd386 !important;
+    border-color: #a24dd386 !important;
+}
+
+/* Espaciado reducido para el botón inferior */
+.download-btn-bottom {
+    margin-bottom: 10px !important;
+    /* Ajustado a un margen inferior menor */
+}
+
+/* Contenedor del visor PDF */
+.pdf-viewer-container {
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    height: 650px;
+    width: 100%;
+    max-width: 1300px;
+}
