@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portafolio_joel/static/css/main.9f4e7022.css",
-    "main.js": "/portafolio_joel/static/js/main.b4026bf3.js",
+    "main.css": "/portafolio_joel/static/css/main.fb89d058.css",
+    "main.js": "/portafolio_joel/static/js/main.524ae738.js",
     "static/js/453.ec16e35c.chunk.js": "/portafolio_joel/static/js/453.ec16e35c.chunk.js",
     "static/media/about.png": "/portafolio_joel/static/media/about.ae7ca24be45844837a34.png",
     "static/media/gato_sinfondo.png": "/portafolio_joel/static/media/gato_sinfondo.84671d9ec0e10e4d57ff.png",
+    "static/media/CV_JOELSASIG.pdf": "/portafolio_joel/static/media/CV_JOELSASIG.c8ee32427da686e1b2d7.pdf",
     "static/media/gato.gif": "/portafolio_joel/static/media/gato.86f8e0aaca23724017e9.gif",
     "static/media/logo.png": "/portafolio_joel/static/media/logo.6296341e18a3f8d5ea16.png",
     "index.html": "/portafolio_joel/index.html",
-    "main.9f4e7022.css.map": "/portafolio_joel/static/css/main.9f4e7022.css.map",
-    "main.b4026bf3.js.map": "/portafolio_joel/static/js/main.b4026bf3.js.map",
+    "main.fb89d058.css.map": "/portafolio_joel/static/css/main.fb89d058.css.map",
+    "main.524ae738.js.map": "/portafolio_joel/static/js/main.524ae738.js.map",
     "453.ec16e35c.chunk.js.map": "/portafolio_joel/static/js/453.ec16e35c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f4e7022.css",
-    "static/js/main.b4026bf3.js"
+    "static/css/main.fb89d058.css",
+    "static/js/main.524ae738.js"
   ]
 }
