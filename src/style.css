@@ -1,12 +1,9 @@
 html {
-    --section-background-color: linear-gradient(to bottom left,
-            rgba(0, 0, 128, 0.582), /* Azul marino semitransparente */
-            rgba(0, 128, 128, 0.904)); /* Verde azulado con poca transparencia */
-
+    --section-background-color: linear-gradient(to bottom left, rgb(229, 229, 229), rgb(173, 216, 230));
     --image-gradient: linear-gradient(to bottom left,
             rgba(0, 0, 128, 0.678), /* Azul marino más transparente */
             rgba(0, 128, 128, 0.863)); /* Verde azulado menos transparente */
-
+    --section-background-color-home: linear-gradient(to bottom left, rgb(255, 255, 255), rgb(173, 216, 230));
     --imp-text-color: #007080; /* Verde azulado */
 }
 .purple {
@@ -297,7 +294,7 @@ button:focus {
     padding-top: 100px   ;
 }
 .home-section {
-    background: #fcf4e4   ;
+    background: var(--section-background-color-home);
     /* Color de fondo mantenido */
     padding: 70px;
     
@@ -346,7 +343,17 @@ button:focus {
     }
 }
 
-
+.home-section {
+    position: relative;
+    z-index: -1;
+    background:transparent, url(./Assests/home-bg.jpg);
+    background-blend-mode: overlay;
+    /* Permite combinar colores e imágenes */
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+}
 .myAvtar {
     display: flex;
     /* Usa flexbox para alinear el contenido */
@@ -360,7 +367,7 @@ button:focus {
     /* Suaviza las esquinas del contenedor */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     /* Agrega una sombra para un mejor efecto */
-    background-color: #E0E0E0;
+
     /* Fondo para destacar */
 }
 
@@ -380,9 +387,7 @@ button:focus {
     transform: scale(1.05);
     /* Efecto de zoom suave al pasar el mouse */
 }
-.home-about-section {
-    background-color: #e8e6e1;
-}
+
 .home-about-section {
     position: relative;
     padding-bottom: 70px   ;
@@ -390,7 +395,7 @@ button:focus {
 }
 
 .home-about-description {
-    color: #2f2f2f  ;
+    color: rgb(91, 91, 91); ;
     padding-top: 100px   ;
     padding-bottom: 20px   ;
     text-align: center;
@@ -425,7 +430,7 @@ button:focus {
     text-align: center   ;
     font-size: 1.2em   ;
     line-height: 2em   ;
-    background: #f9fdf9  ;
+    background: #c2c1c5 ;
     border-radius: 50%   ;
     transition: 0.5s   ;
 }
@@ -523,7 +528,7 @@ button:focus {
     padding-top: 150px;
     padding-bottom: 30px;
     background-image: var(--section-background-color);
-    color: white;
+    color: rgb(91, 91, 91);
 }
 
 .tech-icons {
@@ -559,7 +564,7 @@ button:focus {
 
 .quote-card-view {
     border: none;
-    color: white;
+    color: rgb(9, 14, 81);
     background-color: transparent;
 }
 
@@ -597,7 +602,7 @@ button:focus {
     padding-top: 10px !important;
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 /* Contenedor principal */
@@ -641,4 +646,64 @@ button:focus {
     height: 650px;
     width: 100%;
     max-width: 1300px;
+}
+/* --------- */
+/* Projects */
+/* --------- */
+.project-section {
+    position: relative !important;
+    padding-top: 150px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+}
+
+.project-card {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: auto !important;
+}
+
+.project-card-view {
+    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+    color: white !important;
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 100% !important;
+}
+
+.project-card-view:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+
+/* --------- */
+/*  Preloader */
+/* --------- */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background-color: rgb(173, 216, 230);
+    background-image: url(./Assests/infinite-spinner.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    /* Tamaño ajustado del SVG */
+}
+
+#preloader-none {
+    opacity: 0;
+}
+
+#no-scroll {
+    overflow: hidden;
+    height: 100vh;
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assests/gato.gif";
-import Particle from "../Particle";
+import homeLogo from "../../Assests/gato-unscreen.gif";
 import Home2 from "./Home2";
 import Type from "./Type";
 
@@ -9,7 +8,6 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -31,16 +29,12 @@ function Home() {
             </Col>
 
             <Col md={5} className="mi-columna">
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="mi-imagen"
-              />
+              <img src={homeLogo} alt="home pic" className="mi-imagen" />
             </Col>
           </Row>
         </Container>
+        <Home2 />
       </Container>
-      <Home2 />
     </section>
   );
 }

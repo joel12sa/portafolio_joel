@@ -8,6 +8,7 @@ import {
   PointElement,
 } from "chart.js";
 import { getGitHubEvents } from "../Api/GitHubServices";
+import { Row } from "react-bootstrap";
 
 // Registrar componentes de Chart.js
 ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement);
@@ -54,14 +55,16 @@ const ContributionsChart = () => {
   }, []);
 
   return (
-    <div>
-      <h2>Gráfico de Contribuciones de GitHub</h2>
+    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+        Days I <strong className="purple">Code</strong>
+      </h1>
       {chartData.labels.length > 0 && chartData.datasets.length > 0 ? (
         <Line data={chartData} />
       ) : (
         <p>Cargando datos...</p>
       )}
-    </div>
+    </Row>
   );
 };
 
