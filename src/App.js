@@ -24,14 +24,13 @@ function App() {
 
   return (
     <BrowserRouter>
-      {" "}
-      {/* Usar solo BrowserRouter */}
+      
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/portafolio_joel" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<PdfViewer />} />
           <Route path="/project" element={<Projects />} />

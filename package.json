@@ -49,7 +49,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://joel12sa.github.io/portafolio_joel",
+  "homepage": "https://joel12sa.github.io/",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.2.0"
