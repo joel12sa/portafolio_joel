@@ -8,15 +8,18 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hola a todos, soy <span className="purple"> Joel Sasig </span> de 
+            Hola a todos, soy <span className="purple"> Joel Sasig </span> de
             <span className="purple"> Ecuador.</span>
             <br />
-            Soy estudiante de software en la Universidad de las Fuerzas Armadas ESPE.
+            Soy estudiante de software en la Universidad de las Fuerzas Armadas
+            ESPE.
             <br />
-            Actualmente estoy trabajando en proyectos y arquitecturas basadas en APIs y contenedores Docker.
+            Actualmente me encuentro estudiando y aprendiendo sobre proyectos y
+            arquitecturas basadas en APIs y contenedores Docker.
             <br />
             <br />
-            Además de la programación, algunas otras actividades que me encanta hacer:
+            Además de la programación, algunas otras actividades que me encanta
+            hacer:
           </p>
           <ul>
             <li className="about-activity">

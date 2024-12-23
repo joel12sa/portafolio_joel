@@ -4,7 +4,6 @@ import myImg from "../../Assests/gato_sinfondo.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
  
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -76,16 +75,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="...."
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
+              
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/joel-sasig-03378b328/"

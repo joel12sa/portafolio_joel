@@ -37,7 +37,7 @@ function NavBar() {
       className={navColour ? "#123456" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="/portafolio_joel" className="d-flex">
           <img
             src={logo}
             className="img-fluid logo"
@@ -59,11 +59,7 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
@@ -100,7 +96,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
 
             <Nav.Item className="fork-btn">
               <Button
