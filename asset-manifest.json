@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portafolio_joel/static/css/main.948a568b.css",
-    "main.js": "/portafolio_joel/static/js/main.eded4a4f.js",
+    "main.js": "/portafolio_joel/static/js/main.a3395b25.js",
     "static/js/453.ec16e35c.chunk.js": "/portafolio_joel/static/js/453.ec16e35c.chunk.js",
     "static/media/about.png": "/portafolio_joel/static/media/about.ae7ca24be45844837a34.png",
     "static/media/gato_sinfondo.png": "/portafolio_joel/static/media/gato_sinfondo.84671d9ec0e10e4d57ff.png",
     "static/media/blog.png": "/portafolio_joel/static/media/blog.fb8ab7f271a937d5fc01.png",
     "static/media/gato-unscreen.gif": "/portafolio_joel/static/media/gato-unscreen.8aa7b1a1588e797b4838.gif",
-    "static/media/CV_JOELSASIG.pdf": "/portafolio_joel/static/media/CV_JOELSASIG.c8ee32427da686e1b2d7.pdf",
+    "static/media/CV_JOELSASIG_corregido.pdf": "/portafolio_joel/static/media/CV_JOELSASIG_corregido.02c864d33d0f455fe8c2.pdf",
     "static/media/logo.png": "/portafolio_joel/static/media/logo.6296341e18a3f8d5ea16.png",
     "index.html": "/portafolio_joel/index.html",
     "static/media/infinite-spinner.svg": "/portafolio_joel/static/media/infinite-spinner.cec278a871ffe3926603.svg",
     "main.948a568b.css.map": "/portafolio_joel/static/css/main.948a568b.css.map",
-    "main.eded4a4f.js.map": "/portafolio_joel/static/js/main.eded4a4f.js.map",
+    "main.a3395b25.js.map": "/portafolio_joel/static/js/main.a3395b25.js.map",
     "453.ec16e35c.chunk.js.map": "/portafolio_joel/static/js/453.ec16e35c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.948a568b.css",
-    "static/js/main.eded4a4f.js"
+    "static/js/main.a3395b25.js"
   ]
 }
