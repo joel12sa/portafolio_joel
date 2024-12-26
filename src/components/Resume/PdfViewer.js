@@ -1,7 +1,7 @@
 import React from "react";
 import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
-import pdfFile from "../../Assests/CV_JOELSASIG.pdf"; // Ruta correcta del PDF
+import pdfFile from "../../Assests/CV_JOELSASIG_corregido.pdf"; // Ruta correcta del PDF
 
 const PdfViewer = () => {
   return (
