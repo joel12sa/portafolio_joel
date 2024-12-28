@@ -7,10 +7,10 @@ Este es mi portafolio personal desarrollado en **React** y diseñado con **Boots
 - **Diseño Responsivo:** Utilizando Bootstrap para garantizar compatibilidad en diferentes dispositivos.
 - **Visualización de Contribuciones:** Conexión a la API de GitHub para mostrar tus commits y contribuciones recientes.
 - **Secciones Personalizables:** 
-  - Acerca de mí.
-  - Proyectos destacados.
-  - Habilidades.
-  - Contacto.
+  - Home.
+  - About.
+  - Projects.
+  - Resume.
 
 ## Tecnologías Utilizadas
 
