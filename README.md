@@ -25,4 +25,4 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tuusuario/portafolio_joel.git
+   git clone https://github.com/joel12sa/portafolio_joel.git
